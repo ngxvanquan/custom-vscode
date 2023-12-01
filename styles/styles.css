@@ -1,0 +1,120 @@
+:root {
+    --gradient-dir1: to top;
+    --gradient-dir2: to right;
+    --gradient-dir3: to left;
+    --gradient-dir4: to left;
+    --gradient-dir5: to top left;
+    --gradient-dir6: to left top;
+    --size: 5px;
+    --border-size: 2.5px;
+    --gradient-primary: #fcb564, #ff65f2, #d66efd;
+    --gradient-secondary: linear-gradient(245deg, #fcb564, #ff65f2);
+}
+* {
+    font-weight: 500;
+    font-family: "Dank Mono";
+}
+
+.mtk1 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir4), #f8dfd4, #ffefe8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk10,
+.mtk15 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir4), #fc806c, #ff1bd1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mtk5,
+.mtk26 {
+    color: transparent;
+    background-image: linear-gradient(
+        var(--gradient-dir1),
+        #4dd78a,
+        #20e3b2,
+        #a2de6a
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-font-smoothing: auto;
+    font-family: "Dank mono", monospace;
+}
+.mtk26 {
+    background-image: linear-gradient(
+        var(--gradient-dir5),
+        #4dd78a,
+        #20e3b2,
+        #a2de6a
+    );
+    font-style: italic;
+}
+.mtk23,
+.mtk16 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir1), #d66efd, #6a5af9);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.mtk9,
+.mtk17 {
+    color: transparent;
+    background-image: linear-gradient(
+        var(--gradient-dir2),
+        #098dff,
+        #2cccff,
+        #2979ff
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.mtk18 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir2), #b0beff, #fed9ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-style: normal;
+}
+.mtk3 {
+    color: transparent;
+    background-image: linear-gradient(to top, #fce1d0, #ffadd6, #e39bf7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.mtk7 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir2), #fc6c8f, #ffb86c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mtk8,
+.mtk14 {
+    color: transparent;
+    background-image: linear-gradient(to right, #ffb88c, #eac394);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+:root {
+    --general-gradient-primary: #9bafd9 0%, #82aaff 100%;
+    --general-gradient-secondary: #c099ff 0%, #f8adff 100%;
+    --general-gradient-third: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.4)
+        ),
+        linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+    --size: 10px;
+}

@@ -1,0 +1,26 @@
+{
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.colorTheme": "Evondev Dracula High Contrast",
+    "editor.letterSpacing": 0.5,
+    "editor.fontFamily": "Dark Mono",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "emmet.syntaxProfiles": {
+        "html": {
+            "inline_break": 1
+        }
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.startupEditor": "none",
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/quanm/Documents/vscode/css/custom.css"
+    ]
+}
